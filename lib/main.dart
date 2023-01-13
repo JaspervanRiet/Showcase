@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:showcase/design/theme.dart';
-import 'package:showcase/modules/gallery/gallery.dart';
 import 'package:showcase/modules/gallery/gallery_page.dart';
 
 void main() {
