@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:showcase/models/apod.dart';
 import 'package:showcase/services/http_service.dart';
@@ -22,6 +20,5 @@ final pictureProvider = FutureProvider<Picture>((ref) async {
     return Picture(result.data['title'], result.data['url']);
   }
 
-  print(result.statusMessage);
   throw Exception();
 });
