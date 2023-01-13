@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:showcase/design/theme.dart';
 import 'package:showcase/models/apod.dart';
 
+/// Astronomical picture of the day
 class Apod extends ConsumerWidget {
   const Apod({
     required this.picture,
