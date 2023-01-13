@@ -1,4 +1,4 @@
-# Showcase ![tests](https://github.com/JaspervanRiet/Showcase/actions/workflows/tests.yml/badge.svg?branch=main)
+# Showcase ![tests](https://github.com/JaspervanRiet/Showcase/actions/workflows/tests.yaml/badge.svg)
 A Flutter app showcasing a maintainable structure and a quality test infrastructure, a simple demo app basically. Retrieves the [NASA Astronomy Picture of the Day](https://github.com/nasa/apod-api) and shows it.
 
 Contains:
