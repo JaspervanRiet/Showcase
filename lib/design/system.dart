@@ -6,12 +6,18 @@ final designSystem =
 class DesignSystemStore extends Notifier<DesignSystem> {
   @override
   DesignSystem build() {
-    return DesignSystem();
+    return DesignSystem(
+      padding: PaddingSystem.phone(),
+    );
   }
 }
 
 class DesignSystem {
-  PaddingSystem get padding => PaddingSystem.phone();
+  const DesignSystem({
+    required this.padding,
+  });
+
+  final PaddingSystem padding;
 }
 
 class PaddingSystem {
